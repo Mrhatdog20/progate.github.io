@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nike Shoes Store - Shop Nike shoes, learn about our mission, and get in touch with us.">
+    <title>Nike Shoes Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1><a href="#home" aria-label="Go to Home">Nike Shoes</a></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home" aria-label="Go to Home">Home</a></li>
+                <li><a href="#products" aria-label="See our products">Products</a></li>
+                <li><a href="#about" aria-label="Learn about us">About Us</a></li>
+                <li><a href="#contact" aria-label="Contact us">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Welcome to Nike Shoes</h2>
+        <p>Discover the ultimate in performance, comfort, and style with Nike's collection of shoes. Perfect for athletes, casual wearers, and sneaker enthusiasts alike.</p>
+       
+    </section>
+
+    <!-- Products Section -->
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-container">
+            <div class="product">
+                <img src="infinty react.jpg" alt="Nike React Infinity Run in grey with breathable Flyknit upper" />
+                <h3>Nike React Infinity Run</h3>
+                <p>Experience lightweight cushioning and comfort on long runs. Features a breathable Flyknit upper.</p>
+                <span>₱5,874.20</span>
+            </div>
+            <div class="product">
+                <img src="flexbox/images.jpg" alt="Nike Air Zoom Pegasus 37 Blue Sneakers" />
+                <h3>Nike Air Zoom Pegasus 37 Sneakers</h3>
+                <p>A classic running shoe with responsive cushioning and support for all distances.</p>
+                <span>₱4,298.07</span>
+            </div>
+            <div class="product">
+                <img src="LEBRON+XXII+QS+EP.png" alt="Nike LeBron Series basketball shoes with premium cushioning" />
+                <h3>Nike LeBron Series</h3>
+                <p>Designed for elite performance with exceptional support and cushioning for explosive movements.</p>
+                <span>₱10,895.00</span>
+            </div>
+
+            <div class="product">
+                <img src="s-l640-green.png" alt="Nike Air Max 270 React in green" />
+                <h3>Nike Air Max 270 React</h3>
+                <p>With a stylish design and maximum comfort, the Air Max 270 React is perfect for all-day wear.</p>
+                <span>₱7,499.00</span>
+            </div>
+            <div class="product">
+                <img src="s-l640-black.png" alt="Nike Free RN 5.0 in black" />
+                <h3>Nike Free RN 5.0</h3>
+                <p>Ultra-lightweight with a flexible sole, ideal for training and running.</p>
+                <span>₱4,999.00</span>
+            </div>
+            <div class="product">
+                <img src="s-l1600 blue.webp" alt="Nike ZoomX Vaporfly Next% 2 in white" />
+                <h3>Nike ZoomX Vaporfly Next% 2</h3>
+                <p>Engineered for speed and endurance, the Vaporfly is designed for elite runners.</p>
+                <span>₱15,299.00</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Founded in 1964, Nike Inc. is a global leader in athletic wear and footwear. Our mission is to inspire athletes to reach their full potential by providing innovative and performance-driven products.</p>
+        <p>We believe in the power of sport and the impact it has on individuals, communities, and society as a whole. Our commitment to sustainability, inclusivity, and diversity is reflected in everything we do.</p>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or need more information? Reach out to us!</p>
+        <div class="contact-info">
+            <p><strong>Address:</strong> 123 Nike Drive, Beaverton, OR 97005, USA</p>
+            <p><strong>Phone:</strong> (800) 123-4567</p>
+            <p><strong>Email:</strong> contact@nikestore.com</p>
+            <p><strong>Follow Us:</strong>
+                <a href="https://facebook.com/nike" target="_blank" aria-label="Follow us on Facebook">Facebook</a> |
+                <a href="https://instagram.com/nike" target="_blank" aria-label="Follow us on Instagram">Instagram</a>
+            </p>
+        </div>
+
+        <h3>Send Us a Message</h3>
+        <form action="submit_form.php" method="POST" aria-labelledby="contact-form">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Nike Shoes. All rights reserved.</p>
+    </footer>
+</body>
+</html>
